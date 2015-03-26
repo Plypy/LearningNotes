@@ -8,3 +8,15 @@ export CFLAGS="g -O0"
 ./configure
 ```
 The `CFLAGS` is used to dictate the compilers, GCC in our case.
+
+##Configuration files
+The configurations consists simple directives and block directives.
+Simple directives use spaces as delimiter and ended with semicolons.
+Block directives is like a block statement in C, they are composed of other
+simple directives or block directives. They looks like this
+```
+http {
+    server {
+    }
+}
+```
