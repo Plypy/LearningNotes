@@ -3,8 +3,16 @@
   style from HTML and released with HTML4.0
 
 * Syntax
+  First, the coment in CSS is just like C comment =/*comment*/=
+
   Basically it has this form =selector {name1: value1; name2: value2}=
   The selector can be element selector, id selector and class slector.
   What's more we can also group the selectors together. Like this =sel1, sel2 {...}=
+  Addtionally we can combine the element selector with class selector, like
+  these =p.foo {...}=
 
-  The coment in CSS is just like C comment =/*comment*/=
+* Inserting the CSS
+  We can insert a style sheet into the html by using
+  + External style sheets
+  + Internal style sheets
+  + Inline style
